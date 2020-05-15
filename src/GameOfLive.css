@@ -1,0 +1,53 @@
+.gol {
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #ccc;
+    font-weight: bold;
+}
+
+.gol-grid {
+    display: grid;
+    /*background-color: hotpink;*/
+    gap: 1ch;
+    padding: 1ch;
+    grid-template-columns: repeat(10, auto);
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+}
+
+.gol-item {
+    width: 2ch;
+    height: 2ch;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.gol-item.alive {
+    background-color: #aaa;
+    color: #222;
+}
+
+.gol-item.dead {
+    background-color: #555;
+    color: #ccc;
+}
+
+.gol-buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1ch;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+    gap: 1ch;
+
+}
+
+.gol-button {
+}
